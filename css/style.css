@@ -1,0 +1,100 @@
+html{
+    font-family: 'Nunito', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    font: 'Nunito';
+    margin: 0;
+    padding: 0;
+    background-color: #982d2d;
+}
+
+/* Styling for the navigation bar */
+.nav {
+    display: flex;                                      /* Display the navigation bar as a flex container */
+    flex-direction: column;                             /* Set the flex direction to column */
+    flex-wrap: wrap;                                    /* Enable wrapping of flex items */
+    background: #EDEAE5;                              /* Set the background color of the navigation bar*/
+    position: fixed;                                    /* Position the navigation bar as fixed */
+    height: 60px;                                       /* Set the height of the navigation bar to 60 pixels */
+    width: 100%;                                        /* Set the width of the navigation bar to 100% */
+    top: 0;                                             /* Position the navigation bar at the top */
+    font-weight: 400;                                   /* Set the font weight of the navigation bar text to 400 */
+    font-size: large;                                   /* Set the font size of the navigation bar text to large */
+    overflow: hidden;                                   /* Hide any overflowing content in the navigation bar */
+    z-index: 10;                                        /* Set the z-index of the navigation bar to 10 */
+    color: #55CBCD;                                   /* Set the color of the navigation bar text to #55CBCD */
+}
+
+.logo {
+    margin: 0px;                                        /* Remove margin from the logo */
+    padding-left: 20px;                                 /* Add left padding to the logo */
+    padding-top: 20px;                                  /* Add top padding to the logo */
+    max-width: 200px;                                   /* Set the maximum width of the logo to 100 pixels */
+    font-size: 20px;                                    /* Set the font size of the logo to 20 pixels */
+    font-weight: 600;                                   /* Set the font weight of the logo to 600 */
+}
+  
+.menu {
+    margin: auto;                                       /* Center align the menu container */
+    padding-top: 15px;                                  /* Add top padding to the menu container */
+    color: #A3E1DC;                                     /* Set the color of the menu container text to #A3E1DC */
+}
+  
+.menu-items {
+    list-style-type: none;                              /* Remove the default bullet points from the menu items */
+    margin: auto;                                       /* Center align the menu items */
+    padding-left: 20px;                                 /* Add left padding to the menu items */
+    padding-right: 20px;                                /* Add right padding to the menu items */
+}
+
+.menu-item,
+.menu-item1{
+    float: left;                                        /* Float the menu items to the left */
+    padding-left: 40px;                                 /* Add left padding to the menu items */
+    height: 40px;                                       /* Set the height of the menu items to 40 pixels */
+}
+  
+.menu-item a,
+.menu-item1 a{
+    color: black;                                     /* Set the color of the menu item links to black */
+    text-decoration: none;                              /* Remove the underline from the menu item links */
+}
+  
+.menu-item :hover {
+    color: #55CBCD;                          /* Change the color of the menu item links on hover */
+}
+
+/* The container <div> - needed to position the dropdown content */
+.menu-item1 {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.drop-opts {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+/* Links inside the dropdown */
+.drop-opts a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+/* Change color of dropdown links on hover */
+.drop-opts a:hover {background-color: #ddd;}
+  
+/* Show the dropdown menu on hover */
+.menu-item1:hover .drop-opts {display: block;}
+  
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.menu-item1:hover .dropbtn {background-color: #3e8e41;}
