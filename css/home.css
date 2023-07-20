@@ -1,0 +1,18 @@
+/*Contains CSS for Home page unique elements*/
+
+/*CSS for Search part*/
+#search{
+    padding: 10px;
+    height: 600px;
+    width: 100%;
+    background-color: #55CBCD;
+}
+
+/*CSS for Top Destinations*/
+#top-destinations{
+    position: relative;
+    top: 100px;
+    height: 600px;
+    width: 100%;
+    background-color: #EDEAE5;
+}

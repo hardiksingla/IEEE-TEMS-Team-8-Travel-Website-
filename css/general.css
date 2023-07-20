@@ -1,0 +1,52 @@
+/*Contains CSS of elements that are common throughout the HTML files*/
+
+
+/*CSS for the page*/
+html{
+    scroll-behavior: smooth;                            /* Enable smooth scrolling behavior */
+    height: 100%;                                       /* Set the height of the HTML element to 100% */
+    scroll-padding-top: 60px;                           /* Add padding to the top to avoid content hiding under the fixed navbar */
+}
+
+
+/*CSS for body*/
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+    background-color: #EDEAE5;
+}
+
+
+/*CSS for navbar*/
+#navbar{
+    background-color: #bad9d6;
+    display: flex;
+    position: sticky;
+    top: 0px;                /*navbar CSS here*/
+    z-index: 1;
+}
+
+.logo{
+    font-size: 30px;        
+    padding: 15px;           /*logo CSS here*/
+    margin: 0;
+}
+
+.nav-items{
+    position: relative;
+    margin-left: 60px;
+    margin-top: auto;        /*navbar items CSS here*/
+    margin-bottom: auto;
+    font-size: 15px;
+}
+
+#navbar a{
+    text-decoration: none;
+    color: #1eaaad;        /*navbar links CSS here*/
+    padding: 15px;
+}
+
+/* CSS to hide the scrollbar for webkit-based browsers */
+body::-webkit-scrollbar {
+    display: none;
+}
