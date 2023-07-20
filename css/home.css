@@ -1,18 +1,37 @@
 /*Contains CSS for Home page unique elements*/
 
+
 /*CSS for Search part*/
 #search{
-    padding: 10px;
     height: 600px;
     width: 100%;
-    background-color: #55CBCD;
+    background-color: #EDEAE5;
+    padding: 10px;
+    color: #55CBCD;
 }
 
+#search-info{
+    display: flex;
+}
+
+#search-city{
+    
+}
+
+#search-date-from{
+    
+}
+
+#search-date-to{
+    
+}
+
+
 /*CSS for Top Destinations*/
-#top-destinations{
+#top-destination{
     position: relative;
     top: 100px;
     height: 600px;
     width: 100%;
-    background-color: #EDEAE5;
+    background-color: #55CBCD;
 }
