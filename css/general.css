@@ -19,17 +19,18 @@ body{
 
 /*CSS for navbar*/
 #navbar{
-    background-color: #bad9d6;
+    background-color: #55CBCD;
     display: flex;
     position: sticky;
     top: 0px;                /*navbar CSS here*/
-    z-index: 1;
+    z-index: 10;
 }
 
 .logo{
     font-size: 30px;        
     padding: 15px;           /*logo CSS here*/
     margin: 0;
+    width: 100vh;
 }
 
 .nav-items{
@@ -37,13 +38,19 @@ body{
     margin-left: 60px;
     margin-top: auto;        /*navbar items CSS here*/
     margin-bottom: auto;
-    font-size: 15px;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 #navbar a{
     text-decoration: none;
-    color: #1eaaad;        /*navbar links CSS here*/
+    color: #ffffff;        /*navbar links CSS here*/
     padding: 15px;
+    transition: 0.5s;
+}
+
+#navbar a:hover{
+    color: #A3E1DC;         /*navbar links hover CSS here*/
 }
 
 /* CSS to hide the scrollbar for webkit-based browsers */
