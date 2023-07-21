@@ -12,20 +12,46 @@
 
 #search-info{
     display: flex;
+    margin: 0;
 }
 
 #search-city{
-    
+    padding: 10px;
 }
 
+    /*CSS for select box*/
+    #search-city-box{
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #55CBCD;
+        border-radius: 5px;
+        background-color: white;
+        color: #55CBCD;
+    }
+
+    #search-city-box option{
+        color: #55CBCD;
+        background-color: white; 
+    }
+
 #search-date-from{
-    
+    padding: 10px;
 }
 
 #search-date-to{
-    
+    padding: 10px;
+    margin-left: 20px;
 }
 
+    /*CSS for date picker*/
+    .search-date{
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #55CBCD;
+        border-radius: 5px;
+        background-color: white;
+        color: #55CBCD;
+    }
 
 /*CSS for Top Destinations*/
 #top-destination{
