@@ -23,6 +23,11 @@
     font-weight: 600;
 }
 
+#search-heading p{
+    font-size: 30px;
+    margin-top: 0px;
+}
+
 #search-info{
     display: flex;
     margin: 0;
