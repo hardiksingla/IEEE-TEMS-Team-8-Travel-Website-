@@ -1,0 +1,21 @@
+/*Contains CSS for About page unique elements*/
+
+/*CSS for text*/
+.about-text{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.about-text h1{
+    color: #55CBCD;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.about-text p{
+    margin-top: 10px;
+    font-size: 20px;
+    color: #9AB7D3;
+    text-align: center;
+}
