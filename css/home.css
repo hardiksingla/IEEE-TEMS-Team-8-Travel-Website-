@@ -138,10 +138,21 @@
 #top-destination{
     position: relative;
     top: 100px;
-    height: 220px;
+    height: 600px;
     width: 100%;
     margin: 10px 0 20px;
-    background-color: #55CBCD;
+    background-color: #EDEAE5;
+    padding: 10px;
+}
+
+#top-destination h1{
+    font-size: 3
+    0px;
+    font-weight: 600;
+    margin: 0;
+    padding: 10px;
+    color: #55CBCD;
+    padding-left: 90px;
 }
 
 .video-card-container {
@@ -179,6 +190,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+    transition: 0.5s;
 }
   
 .card-video {
@@ -202,12 +214,12 @@
   
 .pre-btn {
     left: 0;
-    background: linear-gradient(to right, #0c111b 0%, #0c111b00);
+    background-color: #EDEAE5;
 }
   
 .nxt-btn {
     right: 0;
-    background: linear-gradient(to left, #0c111b 0%, #0c111b00);
+    background-color: #EDEAE5;
 }
   
 .pre-btn img,
@@ -220,5 +232,6 @@
 .pre-btn:hover img,
 .nxt-btn:hover img {
     opacity: 1;
+    transition: 1s;
 }
   
