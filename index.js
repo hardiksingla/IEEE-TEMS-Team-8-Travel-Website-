@@ -15,11 +15,11 @@
   
   //card sliders
   
-  let cardContainers = [...document.querySelectorAll(".card-container")];
+  let videocardContainers = [...document.querySelectorAll(".video-card-container")];
   let preBtns = [...document.querySelectorAll(".pre-btn")];
   let nxtBtns = [...document.querySelectorAll(".nxt-btn")];
   
-  cardContainers.forEach((item, i) => {
+  videocardContainers.forEach((item, i) => {
     let containerDimensions = item.getBoundingClientRect();
     let containerWidth = containerDimensions.width;
   
