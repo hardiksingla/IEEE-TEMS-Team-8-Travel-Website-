@@ -8,7 +8,6 @@
 #showcase{
     display: flex;
     padding-top: calc(50/1252.89 * 100%);
-    
 }
 
 /*CSS for Search part*/
@@ -213,7 +212,7 @@
     cursor: pointer;
     outline: none;
 }
-
+  
 .material-symbols-outlined {
     font-variation-settings:
     'FILL' 0,
