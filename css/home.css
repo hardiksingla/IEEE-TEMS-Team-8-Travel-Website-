@@ -7,6 +7,8 @@
 
 #showcase{
     display: flex;
+    padding-top: calc(50/1252.89 * 100%);
+    
 }
 
 /*CSS for Search part*/
