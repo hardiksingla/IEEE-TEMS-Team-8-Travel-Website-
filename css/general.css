@@ -28,6 +28,7 @@ body{
     z-index: 10;
     height: 7.982%;
     height: calc(100/1252.89 * 100%);
+    min-height: 55px;
     width: 100%;
 }
 
