@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/general.css">
     <link rel="stylesheet" href="css/home.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <title>Travel</title>
 </head>
 <body>
@@ -17,125 +16,126 @@
         <a class = "nav-items" href = "#top-destination">Top Destinations</a>
         <a class = "nav-items" href = "">Sign Up</a>
     </nav>
+    <section id = "content">
+      <section id = "showcase">
+          <section id = "search">
+              <div class = "main-text">
+                  <div id = "search-heading">
+                      <h1>Travel</h1>
+                      <p>Easily find places to stay, eat and shop</p>
+                  </div>
+                  <div id = search-info>
+                      <div id = search-city>
+                          Enter your destination<br>
+                          <select id = "search-city-box">
+                              <option value="Choose City">Choose City</option>
+                              <option value="Delhi">Delhi</option>
+                              <option value="Paris">Paris</option>
+                              <option value="London">London</option>
+                              <option value="New York">New York</option>
+                              <option value="Dubai">Dubai</option>
+                              <option value="Singapore">Singapore</option>
+                              <option value="Bangkok">Bangkok</option>
+                              <option value="Kuala Lumpur">Kuala Lumpur</option>
+                              <option value="Hong Kong">Hong Kong</option>
+                              <option value="Istanbul">Istanbul</option>
+                              <option value="Rome">Rome</option>
+                              <option value="Shanghai">Shanghai</option>
+                              <option value="Amsterdam">Amsterdam</option>
+                              <option value="Barcelona">Barcelona</option>
+                              <option value="Milan">Milan</option>
+                              <option value="Vienna">Vienna</option>
+                          </select>
+                      </div>
+                      <div id = "search-date-from">
+                          From<br>
+                          <input type="date" placeholder = "From" class = "search-date">
+                      </div>
+                      <div id = "search-date-to">
+                          To<br>
+                          <input type="date" placeholder = "To" class = "search-date">
+                      </div>
+                  </div>
+                  <button id = "search-button">Explore Now</button>
+              </div>
+          </section>
+          <section id = images>
+              <img src="images/mountain beach.jpeg" alt="" id = "image">
+              <img src="images/mountain beach2.jpeg" alt="" id = "image2">
+          </section>
+      </section>
 
-    <section id = "showcase">
-        <section id = "search">
-            <div class = "main-text">
-                <div id = "search-heading">
-                    <h1>Travel</h1>
-                    <p>Easily find places to stay, eat and shop</p>
+      <section id = "top-destination">
+          <h1>Top Destinations</h1>
+          <button class="pre-btn" title="btn"><img src="images/pre.png" alt=""></button>
+          <button class="nxt-btn" title="btn"><img src="images/nxt.png" alt=""></button>
+          <div class="video-card-container">
+              <div class="video-card">
+                <img src="images/delhi.png" class="video-card-image" alt="" />
+                <video src="videos/delhi.mp4" muted loop class="card-video"></video>
+              </div>
+              <div class="video-card">
+                <img src="images/paris.png" class="video-card-image" alt="" />
+                <video src="videos/paris.mp4" muted loop class="card-video"></video>
+              </div>
+              <div class="video-card">
+                <img src="images/london.png" class="video-card-image" alt="" />
+                <video src="videos/london.mp4" muted loop class="card-video"></video>
+              </div>
+              <div class="video-card">
+                <img src="images/newyork.png" class="video-card-image" alt="" />
+                <video src="videos/newyork.mp4" muted loop class="card-video"></video>
+              </div>
+              <div class="video-card">
+                <img src="images/dubai.png" class="video-card-image" alt="" />
+                <video src="videos/dubai.mp4" muted loop class="card-video"></video>
+              </div>
+              <div class="video-card">
+                  <img src="images/singapore.png" class="video-card-image" alt="" />
+                  <video src="videos/singapore.mp4" muted loop class="card-video"></video>
                 </div>
-                <div id = search-info>
-                    <div id = search-city>
-                        Enter your destination<br>
-                        <select id = "search-city-box">
-                            <option value="Choose City">Choose City</option>
-                            <option value="Delhi">Delhi</option>
-                            <option value="Paris">Paris</option>
-                            <option value="London">London</option>
-                            <option value="New York">New York</option>
-                            <option value="Dubai">Dubai</option>
-                            <option value="Singapore">Singapore</option>
-                            <option value="Bangkok">Bangkok</option>
-                            <option value="Kuala Lumpur">Kuala Lumpur</option>
-                            <option value="Hong Kong">Hong Kong</option>
-                            <option value="Istanbul">Istanbul</option>
-                            <option value="Rome">Rome</option>
-                            <option value="Shanghai">Shanghai</option>
-                            <option value="Amsterdam">Amsterdam</option>
-                            <option value="Barcelona">Barcelona</option>
-                            <option value="Milan">Milan</option>
-                            <option value="Vienna">Vienna</option>
-                        </select>
-                    </div>
-                    <div id = "search-date-from">
-                        From<br>
-                        <input type="date" placeholder = "From" class = "search-date">
-                    </div>
-                    <div id = "search-date-to">
-                        To<br>
-                        <input type="date" placeholder = "To" class = "search-date">
-                    </div>
+                <div class="video-card">
+                  <img src="images/bangkok.png" class="video-card-image" alt="" />
+                  <video src="videos/bangkok.mp4" muted loop class="card-video"></video>
                 </div>
-                <button id = "search-button">Explore Now</button>
-            </div>
-        </section>
-        <section id = images>
-            <img src="images/mountain beach.jpeg" alt="" id = "image">
-            <img src="images/mountain beach2.jpeg" alt="" id = "image2">
-        </section>
-    </section>
-
-    <section id = "top-destination">
-        <h1>Top Destinations</h1>
-        <button class="pre-btn" title="btn"><img src="images/pre.png" alt=""></button>
-        <button class="nxt-btn" title="btn"><img src="images/nxt.png" alt=""></button>
-        <div class="video-card-container">
-            <div class="video-card">
-              <img src="images/delhi.png" class="video-card-image" alt="" />
-              <video src="videos/delhi.mp4" muted loop class="card-video"></video>
-            </div>
-            <div class="video-card">
-              <img src="images/paris.png" class="video-card-image" alt="" />
-              <video src="videos/paris.mp4" muted loop class="card-video"></video>
-            </div>
-            <div class="video-card">
-              <img src="images/london.png" class="video-card-image" alt="" />
-              <video src="videos/london.mp4" muted loop class="card-video"></video>
-            </div>
-            <div class="video-card">
-              <img src="images/newyork.png" class="video-card-image" alt="" />
-              <video src="videos/newyork.mp4" muted loop class="card-video"></video>
-            </div>
-            <div class="video-card">
-              <img src="images/dubai.png" class="video-card-image" alt="" />
-              <video src="videos/dubai.mp4" muted loop class="card-video"></video>
-            </div>
-            <div class="video-card">
-                <img src="images/singapore.png" class="video-card-image" alt="" />
-                <video src="videos/singapore.mp4" muted loop class="card-video"></video>
-              </div>
-              <div class="video-card">
-                <img src="images/bangkok.png" class="video-card-image" alt="" />
-                <video src="videos/bangkok.mp4" muted loop class="card-video"></video>
-              </div>
-              <div class="video-card">
-                <img src="images/kualalumpur.png" class="video-card-image" alt="" />
-                <video src="videos/kualalumpur.mp4" muted loop class="card-video"></video>
-              </div>
-              <div class="video-card">
-                <img src="images/hongkong.png" class="video-card-image" alt="" />
-                <video src="videos/hongkong.mp4" muted loop class="card-video"></video>
-              </div>
-              <div class="video-card">
-                <img src="images/istanbul.png" class="video-card-image" alt="" />
-                <video src="videos/istanbul.mp4" muted loop class="card-video"></video>
-              </div>
-              <div class="video-card">
-                <img src="images/rome.png" class="video-card-image" alt="" />
-                <video src="videos/rome.mp4" muted loop class="card-video"></video>
-              </div>
-              <div class="video-card">
-                <img src="images/shanghai.png" class="video-card-image" alt="" />
-                <video src="videos/shanghai.mp4" muted loop class="card-video"></video>
-              </div>
-              <div class="video-card">
-                <img src="images/amsterdam.png" class="video-card-image" alt="" />
-                <video src="videos/amsterdam.mp4" muted loop class="card-video"></video>
-              </div>
-              <div class="video-card">
-                <img src="images/barcelona.png" class="video-card-image" alt="" />
-                <video src="videos/barcelona.mp4" muted loop class="card-video"></video>
-              </div>
-              <div class="video-card">
-                <img src="images/milan.png" class="video-card-image" alt="" />
-                <video src="videos/milan.mp4" muted loop class="card-video"></video>
-              </div>
-              <div class="video-card">
-                <img src="images/vienna.png" class="video-card-image" alt="" />
-                <video src="videos/vienna.mp4" muted loop class="card-video"></video>
-              </div>
-        </div>
+                <div class="video-card">
+                  <img src="images/kualalumpur.png" class="video-card-image" alt="" />
+                  <video src="videos/kualalumpur.mp4" muted loop class="card-video"></video>
+                </div>
+                <div class="video-card">
+                  <img src="images/hongkong.png" class="video-card-image" alt="" />
+                  <video src="videos/hongkong.mp4" muted loop class="card-video"></video>
+                </div>
+                <div class="video-card">
+                  <img src="images/istanbul.png" class="video-card-image" alt="" />
+                  <video src="videos/istanbul.mp4" muted loop class="card-video"></video>
+                </div>
+                <div class="video-card">
+                  <img src="images/rome.png" class="video-card-image" alt="" />
+                  <video src="videos/rome.mp4" muted loop class="card-video"></video>
+                </div>
+                <div class="video-card">
+                  <img src="images/shanghai.png" class="video-card-image" alt="" />
+                  <video src="videos/shanghai.mp4" muted loop class="card-video"></video>
+                </div>
+                <div class="video-card">
+                  <img src="images/amsterdam.png" class="video-card-image" alt="" />
+                  <video src="videos/amsterdam.mp4" muted loop class="card-video"></video>
+                </div>
+                <div class="video-card">
+                  <img src="images/barcelona.png" class="video-card-image" alt="" />
+                  <video src="videos/barcelona.mp4" muted loop class="card-video"></video>
+                </div>
+                <div class="video-card">
+                  <img src="images/milan.png" class="video-card-image" alt="" />
+                  <video src="videos/milan.mp4" muted loop class="card-video"></video>
+                </div>
+                <div class="video-card">
+                  <img src="images/vienna.png" class="video-card-image" alt="" />
+                  <video src="videos/vienna.mp4" muted loop class="card-video"></video>
+                </div>
+          </div>
+      </section>
     </section>
     <script src="js/index.js" async></script>
 </body>
