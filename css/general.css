@@ -5,7 +5,8 @@
 html{
     scroll-behavior: smooth;                            /* Enable smooth scrolling behavior */
     height: 100%;                                       /* Set the height of the HTML element to 100% */
-    scroll-padding-top: 60px;                           /* Add padding to the top to avoid content hiding under the fixed navbar */
+    scroll-padding-top: 7.63%;                           /* Add padding to the top to avoid content hiding under the fixed navbar */
+    scroll-padding-top: calc(60/1336.22 * 100%);
 }
 
 
@@ -24,6 +25,8 @@ body{
     position: sticky;
     top: 0px;                /*navbar CSS here*/
     z-index: 10;
+    height: 7.63%;
+    height: calc(60/1336.22 * 100%);
 }
 
 .logo{
