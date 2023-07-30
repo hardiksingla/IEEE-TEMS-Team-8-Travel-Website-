@@ -67,3 +67,16 @@ body::-webkit-scrollbar {
 #content{
     margin-top: calc(55/1252.89 * 100%);
 }
+
+@media screen and (max-width: 768px) {
+    #navbar{
+        height: 5%;
+        min-height: 10px;
+    }
+    
+    .logo{
+        font-size: 25px;        
+        padding: 1%;          /*logo CSS here*/
+        width: 55%;
+    }
+}
