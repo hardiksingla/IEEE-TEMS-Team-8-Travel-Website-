@@ -211,6 +211,14 @@
     cursor: pointer;
     outline: none;
 }
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+  }
   
 .pre-btn {
     left: 0;
@@ -222,16 +230,18 @@
     background-color: #EDEAE5;
 }
   
-.pre-btn img,
-.nxt-btn img {
+.pre-btn span,
+.nxt-btn span {
     width: 15px;
     height: 20px;
     opacity: 0;
 }
   
-.pre-btn:hover img,
-.nxt-btn:hover img {
+.pre-btn:hover span,
+.nxt-btn:hover span {
     opacity: 1;
-    transition: 1s;
+    transition: 0.5s;
+    color: #A3E1DC;
 }
+
   
