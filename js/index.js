@@ -18,7 +18,6 @@
   let videocardContainers = [...document.querySelectorAll(".video-card-container")];
   let preBtns = [...document.querySelectorAll(".pre-btn")];
   let nxtBtns = [...document.querySelectorAll(".nxt-btn")];
-  let VdoBtns = [...document.querySelectorAll(".vdobtn")];
   
   videocardContainers.forEach((item, i) => {
     let containerDimensions = item.getBoundingClientRect();
@@ -32,5 +31,10 @@
       item.scrollLeft -= containerWidth + 200;
     });
   });
+
+  function togglediv(id) {
+    var div = document.getElementById(id);
+    div.style.display = div.style.display == "block" ? "none" : "block";
+}
   
   
