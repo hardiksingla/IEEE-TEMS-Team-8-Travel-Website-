@@ -3,8 +3,8 @@
 
 /*CSS for the page*/
 html{
-    scroll-behavior: smooth;                            /* Enable smooth scrolling behavior */
-    height: 100%;                                       /* Set the height of the HTML element to 100% */
+    scroll-behavior: smooth;
+    height: 100%;
     scroll-padding-top: 7.982%;                           /* Add padding to the top to avoid content hiding under the fixed navbar */
     scroll-padding-top: calc(100/1252.89 * 100%);
 }
@@ -14,18 +14,18 @@ html{
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0px;
-    background-color: #EDEAE5;
+    background-color: #000000;
     overflow-x: hidden;
 }
 
 
 /*CSS for navbar*/
 #navbar{
-    background-color: #55CBCD;
+    background-color: #000000;
     display: flex;
     position: fixed;
     top: 0px;                /*navbar CSS here*/
-    z-index: 10;
+    z-index: 100;
     height: 7.982%;
     height: calc(100/1252.89 * 100%);
     min-height: 55px;
@@ -56,7 +56,7 @@ body{
 }
 
 #navbar a:hover{
-    color: #A3E1DC;         /*navbar links hover CSS here*/
+    color: #55CBCD;         /*navbar links hover CSS here*/
 }
 
 /* CSS to hide the scrollbar for webkit-based browsers */
