@@ -86,6 +86,7 @@
     width: 100%;
     color: white;
     min-height: 600px;
+    display:none;
 }
 
 #top-destination h1{
@@ -146,10 +147,14 @@
   
 .card-video {
     position: absolute;
+    width: 100%;
+    height: auto;
 }
   
 .video-card:hover .video-card-image {
     display: none;
+    width: 100%;
+    height: auto;
 }
 .pre-btn,
 .nxt-btn {
@@ -199,6 +204,28 @@
 .nxt-btn:hover span {
     color: #000000;
 }
+
+.vdobtn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: transparent;
+    color: transparent;
+    font-size: 62px;
+    padding: 36px 36px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    z-index: 5;
+    
+  }
+
+.vdolink{
+    color: transparent;
+}
+  
 
 
 /*CSS for Popup*/
