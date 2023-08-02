@@ -199,3 +199,166 @@
 .nxt-btn:hover span {
     color: #000000;
 }
+
+
+/*CSS for Popup*/
+
+#popup{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    justify-content: center;
+    display: none;
+    align-items: center;
+    padding-left: 5%;
+    padding-top: 10%;
+    z-index: 1000;
+}
+
+#popup-content{
+    display: flex;
+}
+
+#showcase{
+    display: flex;
+    width: 90%;
+    border-radius: 50px;
+    background-color: #363333;
+}
+
+#search{
+    width: 40%;
+    padding: 8%;
+    color: #ffffff;
+}
+
+#search-heading{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+#search-heading h1{
+    padding: 0;
+    font-size: 40px;
+    margin: 0;
+    padding-top: 5%;
+}
+
+#search-heading p{
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0;
+    padding-bottom: 3%;
+}
+
+#search-info{
+    display: flex;
+    margin: 0;
+    padding-top: 2%;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#search-city{
+    text-align: center;
+    margin-top: 0px;
+    padding: 2%;
+    width: 100%;
+}
+
+    /*CSS for select box*/
+    #search-city-box{
+        height: 35px;
+        width: 100%;
+        padding: 2%;
+        border: 1px solid #55CBCD;
+        border-radius: 5px;
+        background-color: white;
+        color: #55CBCD;
+        box-shadow: none;
+        transition: 0.5s;
+    }
+
+    #search-city-box option{
+        color: #55CBCD;
+        background-color: white; 
+        font-size: 15px;
+    }
+
+#search-date-from{
+    text-align: center;
+    padding: 10px;
+    margin-left: 10%;
+    height: 35px;
+}
+
+#search-date-to{
+    text-align: center;
+    padding: 1.5%;
+    margin-left: 20px;
+    height: 35px;
+}
+
+    /*CSS for date picker*/
+    .search-date{
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #55CBCD;
+        border-radius: 5px;
+        background-color: white;
+        color: #55CBCD;
+    }
+
+#search-button{
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+    border: 1px solid #55CBCD;
+    border-radius: 5px;
+    background-color: #55CBCD;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5s;
+    width: 100%;
+}
+
+#search-button:hover{
+    background-color: white;
+    color: #55CBCD;
+}
+
+/*CSS for images*/
+#images{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    position: relative;
+}
+
+#image, #image2{
+    margin-left: 0;
+    margin-right: 0;
+    height: 400px;
+    padding: 40px;
+    border-radius: 15%;
+    padding-left: 0;
+    padding-right: 10px;
+}
+
+    /*CSS for image positioning in grid*/
+    #image{
+        grid-column: 1/7;
+        grid-row: 1;
+        z-index: 1;
+        margin-top: 50px;
+    }
+
+    #image2{
+        grid-column: 5/13;
+        grid-row: 1;
+        z-index: 0;
+    }
