@@ -80,6 +80,16 @@
     color: #000000;
 }
 
+.explorelink{
+    color: white;
+    text-decoration: none;
+}
+
+.explorelink:hover{
+    color: black;
+    text-decoration: none;
+}
+
 /* Top Destinations section */
 #top-destination{
     position: relative;
@@ -226,10 +236,7 @@
     color: transparent;
 }
 
-.explorelink{
-    color: white;
-    text-decoration: none;
-}
+
   
 
 
