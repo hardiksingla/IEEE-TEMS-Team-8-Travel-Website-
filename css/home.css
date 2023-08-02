@@ -1,8 +1,12 @@
 /*Contains CSS for Home page unique elements*/
 
+#content{
+    width: 100%;
+}
+
 .main-text p, .main-text h1{
     margin:0;
-    padding-left: 10px;
+    padding-left: 1%;
 }
 
 #showcase{
@@ -12,11 +16,11 @@
 
 /*CSS for Search part*/
 #search{
-    width: 700px;
+    width: 40%;
     background-color: #EDEAE5;
-    padding: 160px;
+    padding: 8%;
     color: #55CBCD;
-    margin-right: 20px;
+    margin-right: 5%;
 }
 
 #search-heading{
@@ -32,7 +36,7 @@
 #search-info{
     display: flex;
     margin: 0;
-    padding-top: 30px;
+    padding-top: 4%;
     font-size: 20px;
     font-weight: 600;
 }
@@ -40,14 +44,15 @@
 #search-city{
     text-align: center;
     margin-top: 0px;
-    padding: 10px;
+    padding: 2%;
     width: 40%;
 }
 
     /*CSS for select box*/
     #search-city-box{
+        height: 35px;
         width: 100%;
-        padding: 10px;
+        padding: 2%;
         border: 1px solid #55CBCD;
         border-radius: 5px;
         background-color: white;
@@ -65,13 +70,15 @@
 #search-date-from{
     text-align: center;
     padding: 10px;
-    margin-left: 73px;
+    margin-left: 15%;
+    height: 35px;
 }
 
 #search-date-to{
     text-align: center;
-    padding: 10px;
+    padding: 1.5%;
     margin-left: 20px;
+    height: 35px;
 }
 
     /*CSS for date picker*/
@@ -236,4 +243,30 @@
     color: #A3E1DC;
 }
 
-  
+@media screen and (max-width: 768px) {
+    #showcase{
+        display: block;
+        margin-top: 5%;
+    }
+    #search{
+        width: 77%;
+        padding: 2%;
+        padding-top: 5%;
+        margin-right: 10%;
+    }
+    #search-info{
+        display: block;
+        padding-top: 5%;
+        font-size: 15px;
+    }
+    #search-city{
+        padding: 0%;
+        width: 100%;
+    }
+        /*CSS for select box*/
+        #search-city-box{
+            width: 100%;
+            padding: 2%;
+        }
+    
+}
