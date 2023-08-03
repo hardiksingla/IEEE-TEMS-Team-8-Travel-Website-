@@ -35,9 +35,11 @@
 
 
   
-  function togglediv(id) {
+  function togglediv(id,id1) {
     var div = document.getElementById(id);
+    var div1 = document.getElementById(id1);
     div.style.display = div.style.display == "block" ? "none" : "block";
+    div1.style.display = div.style.display == "flex" ? "none" : "flex";
 }
   
   
