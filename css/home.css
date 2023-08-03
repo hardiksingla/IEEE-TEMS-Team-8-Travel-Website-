@@ -94,13 +94,23 @@
     color: #000000;
 }
 
+.explorelink{
+    color: white;
+    text-decoration: none;
+}
+
+.explorelink:hover{
+    color: black;
+    text-decoration: none;
+}
+
 /* Top Destinations section */
 #top-destination{
     position: relative;
     width: 100%;
     color: white;
     min-height: 600px;
-    display:none;
+    /* display:none; */
 }
 
 #top-destination h1{
@@ -240,6 +250,8 @@
 .vdolink{
     color: transparent;
 }
+
+
   
 
 
