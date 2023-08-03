@@ -73,6 +73,17 @@
     padding-top: 3px;
 }
 
+.explorelink{
+    color: white;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+.explorelink:hover{
+    color: black;
+    text-decoration: none;
+}
+
 #start-content button{
     font-family: St Marie;
     background-color: #000000;
@@ -92,16 +103,6 @@
 #start-content button:hover{
     background-color: white;
     color: #000000;
-}
-
-.explorelink{
-    color: white;
-    text-decoration: none;
-}
-
-.explorelink:hover{
-    color: black;
-    text-decoration: none;
 }
 
 /* Top Destinations section */
