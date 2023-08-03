@@ -1,3 +1,13 @@
+@font-face {
+    font-family: St Marie;
+    src: url(../fonts/StMarie-Thin.otf);
+}
+
+@font-face {
+    font-family: Plutur;
+    src: url(../fonts/Plutur.ttf);
+}
+
 /*Contains CSS for Home page unique elements*/
 
 #content{
@@ -46,6 +56,7 @@
 }
 
 #start-content h1 {
+    font-family: Plutur;
     display: block;
     mix-blend-mode: overlay;
     padding: 5px;
@@ -55,12 +66,15 @@
 }
 
 #start-content p{
+    font-family: St Marie;
     font-size: 20px;
     font-weight: 300;
     margin: 0;
+    padding-top: 3px;
 }
 
 #start-content button{
+    font-family: St Marie;
     background-color: #000000;
     border: none;
     color: white;
@@ -97,6 +111,7 @@
 }
 
 #top-destination p{
+    font-family: St Marie;
     text-align: center;
     font-size: 20px;
     font-weight: 300;
@@ -253,7 +268,8 @@
     display: flex;
     width: 90%;
     border-radius: 50px;
-    background-color: #363333;
+    background-color: #000000;
+    border: 4px dotted white;
 }
 
 #search{
