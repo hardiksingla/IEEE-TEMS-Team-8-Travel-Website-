@@ -12,7 +12,7 @@ let activities = [
       image: "../images/Saturn_Ac2.jpeg"
     },
     {
-      name: "Cassini Heritage Tour:",
+      name: "Cassini Heritage Tour",
       des:
         "Visit sites of historical interest related to the Cassini-Huygens mission, a spacecraft that provided valuable insights into Saturn and its moons.",
       image: "../images/Saturn_Ac3.jpeg"
