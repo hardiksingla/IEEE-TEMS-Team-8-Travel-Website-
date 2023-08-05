@@ -2,32 +2,32 @@ let activities = [
     {
       name: "Lunar Hiking",
       des:
-        "Explore the moon's unique landscape by going on guided lunar hikes to experience the feeling of low gravity and witness breathtaking views of Earth from the moon's surface.",
-      image: "../images/Moon_Ac1.jpeg"
+        "Explore the Jupiter's unique landscape by going on guided lunar hikes to experience the feeling of low gravity and witness breathtaking views of Earth from the Jupiter's surface.",
+      image: "../images/Jupiter_Ac1.jpeg"
     },
     {
-      name: "Moon Buggy Rides",
+      name: "Jupiter Buggy Rides",
       des:
-        "Take a ride on a moon rover, similar to the ones used by Apollo astronauts, to explore more extensive areas and cover more ground during your stay.",
-      image: "../images/Moon_Ac2.jpeg"
+        "Take a ride on a Jupiter rover, similar to the ones used by Apollo astronauts, to explore more extensive areas and cover more ground during your stay.",
+      image: "../images/Jupiter_Ac2.jpeg"
     },
     {
       name: "Space Camp",
       des:
         "Participate in hands-on educational programs designed to simulate astronaut training and learn more about the science and technology behind space exploration.",
-      image: "../images/Moon_Ac3.jpeg"
+      image: "../images/Jupiter_Ac3.jpeg"
     },
     {
       name: "Space Photography",
       des:
-        "Capture stunning lunar landscapes and Earthrises from the moon's surface to create unforgettable memories and share the beauty of space with friends and family back home.        ",
-      image: "../images/Moon_Ac4.jpeg"
+        "Capture stunning lunar landscapes and Earthrises from the Jupiter's surface to create unforgettable memories and share the beauty of space with friends and family back home.        ",
+      image: "../images/Jupiter_Ac4.jpeg"
     },
     {
       name: "Spacecraft Museum Visit",
       des:
         "Explore historical lunar landing sites and spacecraft left behind by previous missions, gaining insight into humanity's achievements in space exploration.",
-      image: "../images/Moon_Ac5.jpeg"
+      image: "../images/Jupiter_Ac5.jpeg"
     }
   ];
   
