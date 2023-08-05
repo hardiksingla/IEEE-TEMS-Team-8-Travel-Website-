@@ -1,33 +1,33 @@
 let activities = [
     {
-      name: "falcon and the winter soldier",
+      name: "Lunar Hiking",
       des:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit porro et veniam excepturi, eaque voluptatem impedit nulla laboriosam facilis ut laboriosam libero!",
-      image: "images/slider 2.png"
+        "Explore the moon's unique landscape by going on guided lunar hikes to experience the feeling of low gravity and witness breathtaking views of Earth from the moon's surface.",
+      image: "../images/Moon_Ac1.jpeg"
     },
     {
-      name: "loki",
+      name: "Moon Buggy Rides",
       des:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit porro et veniam excepturi, eaque voluptatem impedit nulla laboriosam facilis ut laboriosam libero!",
-      image: "images/slider 1.png"
+        "Take a ride on a moon rover, similar to the ones used by Apollo astronauts, to explore more extensive areas and cover more ground during your stay.",
+      image: "../images/Moon_Ac2.jpeg"
     },
     {
-      name: "wanda vision",
+      name: "Space Camp",
       des:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit porro et veniam excepturi, eaque voluptatem impedit nulla laboriosam facilis ut laboriosam libero!",
-      image: "images/slider 3.png"
+        "Participate in hands-on educational programs designed to simulate astronaut training and learn more about the science and technology behind space exploration.",
+      image: "../images/Moon_Ac3.jpeg"
     },
     {
-      name: "raya and the last dragon",
+      name: "Space Photography",
       des:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit porro et veniam excepturi, eaque voluptatem impedit nulla laboriosam facilis ut laboriosam libero!",
-      image: "images/slider 4.png"
+        "Capture stunning lunar landscapes and Earthrises from the moon's surface to create unforgettable memories and share the beauty of space with friends and family back home.        ",
+      image: "../images/Moon_Ac4.jpeg"
     },
     {
-      name: "luca",
+      name: "Spacecraft Museum Visit",
       des:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit porro et veniam excepturi, eaque voluptatem impedit nulla laboriosam facilis ut laboriosam libero!",
-      image: "images/slider 5.png"
+        "Explore historical lunar landing sites and spacecraft left behind by previous missions, gaining insight into humanity's achievements in space exploration.",
+      image: "../images/Moon_Ac5.jpeg"
     }
   ];
   

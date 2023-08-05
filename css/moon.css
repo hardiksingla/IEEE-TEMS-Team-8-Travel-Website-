@@ -8,34 +8,24 @@
     src: url(../fonts/Plutur.ttf);
 }
 
-body {
-    background-color: black;
-    color: white;
-    font-family: Arial, sans-serif;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    width: 100%;
+    background: black;
     line-height: 1.6;
     margin: 0;
     padding: 20px;
-}
+  }
+
 h1 {
-    color: #FFD700; /* Gold color for headings */
+    color: white; /* Gold color for headings */
 }
-h2 {
-    color: #00BFFF; /* Dodger Blue color for subheadings */
-}
-ul {
-    list-style-type: disc; /* Style the bullet points as discs */
-    padding-left: 30px;
-}
-li {
-    margin-bottom: 10px;
-}
-a {
-    color: #00BFFF; /* Dodger Blue color for links */
-    text-decoration: none;
-}
-a:hover {
-    text-decoration: underline;
-}
+
 .carousel-container {
     position: relative;
     width: 100%;
@@ -52,4 +42,72 @@ a:hover {
     position: relative;
     margin: auto;
   }
+    
+  .slider {
+    flex: 0 0 auto;
+    margin-right: 30px;
+    position: relative;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    transition: 1s;
+    overflow: hidden;
+  }
   
+  .slider img {
+    width: 70%;
+    min-height: 100%;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+  }
+  
+  .slide-content {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    z-index: 2;
+    background: linear-gradient(to right, #030b17 80%, #0c111b00);
+    color: #fff;
+  }
+  
+  .activity-title {
+    font-family: Plutur;
+    padding-left: 50px;
+    text-transform: capitalize;
+    margin-top: 80px;
+  }
+  
+  .activity-des {
+    font-family: St Marie;
+    width: 80%;
+    line-height: 30px;
+    padding-left: 50px;
+    margin-top: 30px;
+    opacity: 0.8;
+  }
+  
+  #start-content button{
+    font-family: St Marie;
+    background-color: #000000;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 40px;
+    margin-bottom: 10%;
+    margin-top: 1%;
+    transition: 0.5s;
+    border: 2px solid white;
+    position: absolute;
+    left: 50%;
+}
+
+#start-content button:hover{
+    background-color: white;
+    color: #000000;
+}
