@@ -74,12 +74,14 @@ h1 {
   }
   
   .activity-title {
+    font-family: Plutur;
     padding-left: 50px;
     text-transform: capitalize;
     margin-top: 80px;
   }
   
   .activity-des {
+    font-family: St Marie;
     width: 80%;
     line-height: 30px;
     padding-left: 50px;
@@ -101,6 +103,8 @@ h1 {
     margin-top: 1%;
     transition: 0.5s;
     border: 2px solid white;
+    position: absolute;
+    left: 50%;
 }
 
 #start-content button:hover{
