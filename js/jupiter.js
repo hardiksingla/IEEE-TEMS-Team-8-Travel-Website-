@@ -1,32 +1,32 @@
 let activities = [
     {
-      name: "Lunar Hiking",
+      name: "Jupiter's Great Red Spot Observation",
       des:
-        "Explore the Jupiter's unique landscape by going on guided lunar hikes to experience the feeling of low gravity and witness breathtaking views of Earth from the Jupiter's surface.",
+        "Use advanced spacecraft to observe and study Jupiter's iconic storm, the Great Red Spot, from a safe distance.",
       image: "../images/Jupiter_Ac1.jpeg"
     },
     {
-      name: "Jupiter Buggy Rides",
+      name: "Radiation Shielded Habitats",
       des:
-        "Take a ride on a Jupiter rover, similar to the ones used by Apollo astronauts, to explore more extensive areas and cover more ground during your stay.",
+        "Stay in radiation-shielded habitats on the moons to protect against Jupiter's intense radiation belts.",
       image: "../images/Jupiter_Ac2.jpeg"
     },
     {
-      name: "Space Camp",
+      name: "Interplanetary Astronomy",
       des:
-        "Participate in hands-on educational programs designed to simulate astronaut training and learn more about the science and technology behind space exploration.",
+        "Utilize the unique perspective from Jupiter's moons to conduct astronomical observations of distant celestial objects and phenomena.",
       image: "../images/Jupiter_Ac3.jpeg"
     },
     {
-      name: "Space Photography",
+      name: "Jovian Moon Exploration",
       des:
-        "Capture stunning lunar landscapes and Earthrises from the Jupiter's surface to create unforgettable memories and share the beauty of space with friends and family back home.        ",
+        "Visit the four largest moons of Jupiter - Io, Europa, Ganymede, and Callisto - each with unique features and potential for scientific discoveries.",
       image: "../images/Jupiter_Ac4.jpeg"
     },
     {
-      name: "Spacecraft Museum Visit",
+      name: "Io Volcano Observation",
       des:
-        "Explore historical lunar landing sites and spacecraft left behind by previous missions, gaining insight into humanity's achievements in space exploration.",
+        "Witness the active volcanic activity on Io, Jupiter's innermost moon, and study the interactions between its volcanic plumes and Jupiter's magnetic field.",
       image: "../images/Jupiter_Ac5.jpeg"
     }
   ];

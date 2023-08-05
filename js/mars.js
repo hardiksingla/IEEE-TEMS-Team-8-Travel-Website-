@@ -1,32 +1,32 @@
 let activities = [
     {
-      name: "Lunar Hiking",
+      name: "Rover Expeditions",
       des:
-        "Explore the mars's unique landscape by going on guided lunar hikes to experience the feeling of low gravity and witness breathtaking views of Earth from the mars's surface.",
+        "Explore the Martian surface with advanced rovers capable of traveling long distances, studying geological features, and searching for signs of past or present life.",
       image: "../images/Mars_Ac1.jpeg"
     },
     {
-      name: "mars Buggy Rides",
+      name: "Martian Base Camp",
       des:
-        "Take a ride on a mars rover, similar to the ones used by Apollo astronauts, to explore more extensive areas and cover more ground during your stay.",
+        "Stay in a self-sustaining habitat or a Martian base camp, simulating life on Mars and conducting scientific research.",
       image: "../images/Mars_Ac2.jpeg"
     },
     {
-      name: "Space Camp",
+      name: "Martian Geology",
       des:
-        "Participate in hands-on educational programs designed to simulate astronaut training and learn more about the science and technology behind space exploration.",
+        "Investigate the unique geology of Mars, including its vast canyons, ancient riverbeds, and potential sites of valuable resources.",
       image: "../images/Mars_Ac3.jpeg"
     },
     {
-      name: "Space Photography",
+      name: "Astronomy and Sky Observations",
       des:
-        "Capture stunning lunar landscapes and Earthrises from the mars's surface to create unforgettable memories and share the beauty of space with friends and family back home.        ",
+        "Observe the Martian sky, which is known for its pinkish hue and two moons, Phobos and Deimos, and study the distant stars and planets from the Martian surface.",
       image: "../images/Mars_Ac4.jpeg"
     },
     {
-      name: "Spacecraft Museum Visit",
+      name: "Ice Mining",
       des:
-        "Explore historical lunar landing sites and spacecraft left behind by previous missions, gaining insight into humanity's achievements in space exploration.",
+        "Study the potential for extracting water ice from Martian polar regions, a crucial resource for future human settlers.",
       image: "../images/Mars_Ac5.jpeg"
     }
   ];

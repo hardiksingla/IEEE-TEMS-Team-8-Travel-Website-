@@ -1,32 +1,32 @@
 let activities = [
     {
-      name: "Lunar Hiking",
+      name: "Venusian Cloud City",
       des:
-        "Explore the Venus's unique landscape by going on guided lunar hikes to experience the feeling of low gravity and witness breathtaking views of Earth from the Venus's surface.",
+        "Stay in a floating habitat high in Venus's atmosphere, where temperatures and pressures are more Earth-like. This would be a safer and more comfortable option compared to the surface.",
       image: "../images/Venus_Ac1.jpeg"
     },
     {
-      name: "Venus Buggy Rides",
+      name: "Heat-Resistant Rover Exploration",
       des:
-        "Take a ride on a Venus rover, similar to the ones used by Apollo astronauts, to explore more extensive areas and cover more ground during your stay.",
+        "Deploy heat-resistant rovers to the surface of Venus to explore its volcanic plains and investigate the possibility of unique forms of life surviving in extreme conditions.",
       image: "../images/Venus_Ac2.jpeg"
     },
     {
-      name: "Space Camp",
+      name: "Venusian Volcano Tour",
       des:
-        "Participate in hands-on educational programs designed to simulate astronaut training and learn more about the science and technology behind space exploration.",
+        "Explore Venus's active volcanoes and lava flows, witnessing the planet's geological activity up close.",
       image: "../images/Venus_Ac3.jpeg"
     },
     {
-      name: "Space Photography",
+      name: "Solar Power Demonstration",
       des:
-        "Capture stunning lunar landscapes and Earthrises from the Venus's surface to create unforgettable memories and share the beauty of space with friends and family back home.        ",
+        "Investigate the use of solar power on Venus, taking advantage of its proximity to the Sun, despite challenges in harnessing energy due to its thick atmosphere.",
       image: "../images/Venus_Ac4.jpeg"
     },
     {
-      name: "Spacecraft Museum Visit",
+      name: "Greenhouse Research",
       des:
-        "Explore historical lunar landing sites and spacecraft left behind by previous missions, gaining insight into humanity's achievements in space exploration.",
+        "Study potential methods of terraforming Venus, understanding how to modify its atmosphere and climate to make it more habitable for humans.",
       image: "../images/Venus_Ac5.jpeg"
     }
   ];

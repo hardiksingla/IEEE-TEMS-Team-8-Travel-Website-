@@ -1,32 +1,32 @@
 let activities = [
     {
-      name: "Lunar Hiking",
+      name: "Ice Giant Atmosphere Studies",
       des:
-        "Explore the Neptune's unique landscape by going on guided lunar hikes to experience the feeling of low gravity and witness breathtaking views of Earth from the Neptune's surface.",
-      image: "../images/Neptune_Ac1.jpeg"
-    },
-    {
-      name: "Neptune Buggy Rides",
-      des:
-        "Take a ride on a Neptune rover, similar to the ones used by Apollo astronauts, to explore more extensive areas and cover more ground during your stay.",
-      image: "../images/Neptune_Ac2.jpeg"
-    },
-    {
-      name: "Space Camp",
-      des:
-        "Participate in hands-on educational programs designed to simulate astronaut training and learn more about the science and technology behind space exploration.",
-      image: "../images/Neptune_Ac3.jpeg"
-    },
-    {
-      name: "Space Photography",
-      des:
-        "Capture stunning lunar landscapes and Earthrises from the Neptune's surface to create unforgettable memories and share the beauty of space with friends and family back home.        ",
+        "Analyze Neptune's dynamic atmosphere, studying its weather patterns, storms, and fast winds.",
       image: "../images/Neptune_Ac4.jpeg"
     },
     {
-      name: "Spacecraft Museum Visit",
+      name: "Submarine Exploration",
       des:
-        "Explore historical lunar landing sites and spacecraft left behind by previous missions, gaining insight into humanity's achievements in space exploration.",
+        "Explore the subsurface oceans that may exist on Triton, investigating the potential for life beneath its icy crust.",
+      image: "../images/Neptune_Ac2.jpeg"
+    },
+    {
+      name: "Neptune's Dark Spot Investigation",
+      des:
+        "Study the Great Dark Spot on Neptune, a storm system similar to Jupiter's Great Red Spot, to understand its behavior and evolution.",
+      image: "../images/Neptune_Ac3.jpeg"
+    },
+    {
+      name: "Triton Landing",
+      des:
+        "Land on Triton, Neptune's largest moon, to study its unique retrograde orbit and geysers erupting from its icy surface.",
+      image: "../images/Neptune_Ac1.jpeg"
+    },
+    {
+      name: "Educational Outreach",
+      des:
+        "Engage in educational and outreach activities, sharing the excitement of space exploration with the public and inspiring future generations of scientists and explorers.",
       image: "../images/Neptune_Ac5.jpeg"
     }
   ];

@@ -1,32 +1,32 @@
 let activities = [
     {
-      name: "Lunar Hiking",
+      name: "Saturn's Rings Tour",
       des:
-        "Explore the Saturn's unique landscape by going on guided lunar hikes to experience the feeling of low gravity and witness breathtaking views of Earth from the Saturn's surface.",
+        "Fly through and study Saturn's magnificent ring system, witnessing its intricate structures and learning about its composition and origin.",
       image: "../images/Saturn_Ac1.jpeg"
     },
     {
-      name: "Saturn Buggy Rides",
+      name: "Saturnian Aurora Observation",
       des:
-        "Take a ride on a Saturn rover, similar to the ones used by Apollo astronauts, to explore more extensive areas and cover more ground during your stay.",
+        "Study the beautiful and enigmatic auroras on Saturn, created by interactions between its magnetic field and solar winds.",
       image: "../images/Saturn_Ac2.jpeg"
     },
     {
-      name: "Space Camp",
+      name: "Cassini Heritage Tour:",
       des:
-        "Participate in hands-on educational programs designed to simulate astronaut training and learn more about the science and technology behind space exploration.",
+        "Visit sites of historical interest related to the Cassini-Huygens mission, a spacecraft that provided valuable insights into Saturn and its moons.",
       image: "../images/Saturn_Ac3.jpeg"
     },
     {
-      name: "Space Photography",
+      name: "Space Agriculture Experiments",
       des:
-        "Capture stunning lunar landscapes and Earthrises from the Saturn's surface to create unforgettable memories and share the beauty of space with friends and family back home.        ",
+        "Conduct experiments in space agriculture on Saturn's moons to study the feasibility of self-sustaining human colonies in the outer solar system.",
       image: "../images/Saturn_Ac4.jpeg"
     },
     {
-      name: "Spacecraft Museum Visit",
+      name: "Enceladus Flyby",
       des:
-        "Explore historical lunar landing sites and spacecraft left behind by previous missions, gaining insight into humanity's achievements in space exploration.",
+        "Perform flybys of Enceladus, one of Saturn's moons, known for its icy surface and active geysers that may harbor subsurface oceans.",
       image: "../images/Saturn_Ac5.jpeg"
     }
   ];

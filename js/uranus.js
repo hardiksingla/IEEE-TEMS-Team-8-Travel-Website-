@@ -1,32 +1,32 @@
 let activities = [
     {
-      name: "Lunar Hiking",
+      name: "Ice Volcano Investigations",
       des:
-        "Explore the Uranus's unique landscape by going on guided lunar hikes to experience the feeling of low gravity and witness breathtaking views of Earth from the Uranus's surface.",
+        "Study potential ice volcanoes on Miranda, Uranus's innermost moon, to understand the processes shaping its surface.",
       image: "../images/Uranus_Ac1.jpeg"
     },
     {
-      name: "Uranus Buggy Rides",
+      name: "Umbriel's Dark Surface",
       des:
-        "Take a ride on a Uranus rover, similar to the ones used by Apollo astronauts, to explore more extensive areas and cover more ground during your stay.",
+        "Explore the dark and heavily cratered terrain of Umbriel, Uranus's third-largest moon, to unravel its geologic history.",
       image: "../images/Uranus_Ac2.jpeg"
     },
     {
-      name: "Space Camp",
+      name: "Uranus Ring System Observations",
       des:
-        "Participate in hands-on educational programs designed to simulate astronaut training and learn more about the science and technology behind space exploration.",
+        "Examine Uranus's faint ring system to understand its composition and dynamics.",
       image: "../images/Uranus_Ac3.jpeg"
     },
     {
-      name: "Space Photography",
+      name: "Astronomical Observations",
       des:
-        "Capture stunning lunar landscapes and Earthrises from the Uranus's surface to create unforgettable memories and share the beauty of space with friends and family back home.        ",
+        "Utilize the vantage point near Uranus to conduct astronomical observations of distant objects in the solar system and beyond.",
       image: "../images/Uranus_Ac4.jpeg"
     },
     {
-      name: "Spacecraft Museum Visit",
+      name: "Subsurface Ocean Exploration",
       des:
-        "Explore historical lunar landing sites and spacecraft left behind by previous missions, gaining insight into humanity's achievements in space exploration.",
+        "Investigate the possibility of subsurface oceans on Uranus's moons, like Miranda and Titania, and study their potential habitability.",
       image: "../images/Uranus_Ac5.jpeg"
     }
   ];

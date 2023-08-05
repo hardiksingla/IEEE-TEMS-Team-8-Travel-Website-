@@ -1,32 +1,32 @@
 let activities = [
     {
-      name: "Lunar Hiking",
+      name: "Surface Sledding",
       des:
-        "Explore the mercury's unique landscape by going on guided lunar hikes to experience the feeling of low gravity and witness breathtaking views of Earth from the mercury's surface.",
+        "Take advantage of Mercury's low gravity and smooth plains to experience the thrill of sledding down its slopes on specially designed sleds or vehicles.",
       image: "../images/Mercury_Ac1.jpeg"
     },
     {
-      name: "mercury Buggy Rides",
+      name: "Magnetic Field Interaction",
       des:
-        "Take a ride on a mercury rover, similar to the ones used by Apollo astronauts, to explore more extensive areas and cover more ground during your stay.",
+        "Study the interaction between Mercury's magnetic field and the solar wind, which could provide valuable insights into the planet's magnetic history.",
       image: "../images/Mercury_Ac2.jpeg"
-    },
-    {
-      name: "Space Camp",
-      des:
-        "Participate in hands-on educational programs designed to simulate astronaut training and learn more about the science and technology behind space exploration.",
-      image: "../images/Mercury_Ac3.jpeg"
     },
     {
       name: "Space Photography",
       des:
-        "Capture stunning lunar landscapes and Earthrises from the mercury's surface to create unforgettable memories and share the beauty of space with friends and family back home.        ",
+        "Capture mesmerizing views of the Sun from Mercury's surface and take snapshots of the unique landscapes and terrain.",
+      image: "../images/Mercury_Ac3.jpeg"
+    },
+    {
+      name: "Spacecraft Archaeology",
+      des:
+        "Explore any abandoned spacecraft or probes that were sent to Mercury in the past, learning from their history and technological achievements.",
       image: "../images/Mercury_Ac4.jpeg"
     },
     {
-      name: "Spacecraft Museum Visit",
+      name: "Space Cuisine",
       des:
-        "Explore historical lunar landing sites and spacecraft left behind by previous missions, gaining insight into humanity's achievements in space exploration.",
+        "Try out specially prepared space-themed meals and sample freeze-dried astronaut food to get a taste of what it's like to dine in space.",
       image: "../images/Mercury_Ac5.jpeg"
     }
   ];

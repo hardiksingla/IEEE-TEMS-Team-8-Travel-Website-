@@ -1,32 +1,32 @@
 let activities = [
     {
-      name: "Lunar Hiking",
+      name: "Charon Landing",
       des:
-        "Explore the Pluto's unique landscape by going on guided lunar hikes to experience the feeling of low gravity and witness breathtaking views of Earth from the Pluto's surface.",
+        "Land on Charon, Pluto's largest moon, to investigate its icy terrain and geological characteristics.",
       image: "../images/Pluto_Ac1.jpeg"
     },
     {
-      name: "Pluto Buggy Rides",
+      name: "Spaceborne Telescopes",
       des:
-        "Take a ride on a Pluto rover, similar to the ones used by Apollo astronauts, to explore more extensive areas and cover more ground during your stay.",
+        "Use Pluto's distance from Earth to establish a spaceborne telescope, taking advantage of the lack of atmospheric interference for deep-space observations.",
       image: "../images/Pluto_Ac2.jpeg"
     },
     {
-      name: "Space Camp",
+      name: "Pluto's Icy Plains",
       des:
-        "Participate in hands-on educational programs designed to simulate astronaut training and learn more about the science and technology behind space exploration.",
+        "Explore Pluto's vast, frozen plains and study its unique landscape, including its striking heart-shaped region, informally known as Tombaugh Regio.",
       image: "../images/Pluto_Ac3.jpeg"
     },
     {
-      name: "Space Photography",
+      name: "Moons of Pluto",
       des:
-        "Capture stunning lunar landscapes and Earthrises from the Pluto's surface to create unforgettable memories and share the beauty of space with friends and family back home.        ",
+        "Study the other small moons of Pluto, such as Nix, Hydra, Kerberos, and Styx, to understand their origins and properties.",
       image: "../images/Pluto_Ac4.jpeg"
     },
     {
-      name: "Spacecraft Museum Visit",
+      name: "Kuiper Belt Exploration",
       des:
-        "Explore historical lunar landing sites and spacecraft left behind by previous missions, gaining insight into humanity's achievements in space exploration.",
+        "Utilize the mission to study other objects in the Kuiper Belt, a region of icy bodies beyond Neptune, to gain insights into the early solar system.",
       image: "../images/Pluto_Ac5.jpeg"
     }
   ];
