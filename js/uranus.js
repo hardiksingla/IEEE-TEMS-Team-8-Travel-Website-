@@ -6,9 +6,9 @@ let activities = [
       image: "../images/Uranus_Ac1.jpeg"
     },
     {
-      name: "Umbriel's Dark Surface",
+      name: "Uranian Moon Hopping",
       des:
-        "Explore the dark and heavily cratered terrain of Umbriel, Uranus's third-largest moon, to unravel its geologic history.",
+        "Explore the diverse moons of Uranus, such as Miranda, Ariel, Umbriel, Titania, and Oberon, each with its distinct surface features and geological characteristics.",
       image: "../images/Uranus_Ac2.jpeg"
     },
     {
@@ -18,9 +18,9 @@ let activities = [
       image: "../images/Uranus_Ac3.jpeg"
     },
     {
-      name: "Astronomical Observations",
+      name: "Umbriel's Dark Surface",
       des:
-        "Utilize the vantage point near Uranus to conduct astronomical observations of distant objects in the solar system and beyond.",
+        "Explore the dark and heavily cratered terrain of Umbriel, Uranus's third-largest moon, to unravel its geologic history.",
       image: "../images/Uranus_Ac4.jpeg"
     },
     {

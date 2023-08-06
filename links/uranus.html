@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/general.css">
     <link rel="stylesheet" href="../css/links.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <title>Uranus Vacation Activities</title>
 </head>
 <body>
     <nav id = "navbar">
-        <h1 class = "logo"><a href="../index.html">Travel</a></h1>
+        <h1 class = "logo"><a href="../index.html">Travelmate</a></h1>
         <a class = "nav-items" href = "../index.html">Home</a>
         <a class = "nav-items" href = "../about.html">About</a>
         <a class = "nav-items" href = "../contact.html">Contact Us</a>
@@ -21,53 +22,109 @@
         </div>
     </div>
     <section id = "start-content">
-        <button type="button" class="toggleBtn" >Book Now</button>
+        <button type="button" class="toggleBtn" onclick="openForm()">Book Now</button>
     </section>
     <section id = "popup">
-        <section id = "popup-content">
-          <section id = "showcase">
-            <section id = "search">
-                <div class = "main-text">
-                    <div id = "search-heading">
-                        <h1>Travel</h1>
-                        <p>Easily find places to stay, eat and shop</p>
-                    </div>
-                    <div id = search-info>
-                        <div id = search-city>
-                            Enter your destination<br>
-                            <select id = "search-city-box">
-                                <option value="Choose Destination">Choose Destination</option>
-                                <option value="Moon">Moon</option>
-                                <option value="Mercury">Mercury</option>
-                                <option value="Venus">Venus</option>
-                                <option value="Mars">Mars</option>
-                                <option value="Jupiter">Jupiter</option>
-                                <option value="Saturn">Saturn</option>
-                                <option value="Uranus">Uranus</option>
-                                <option value="Neptune">Neptune</option>
-                                <option value="Pluto">Pluto</option>
-                            </select>
-                        </div>
-                        <div id = "search-date-from">
-                            From<br>
-                            <input type="date" placeholder = "From" class = "search-date">
-                        </div>
-                        <div id = "search-date-to">
-                            To<br>
-                            <input type="date" placeholder = "To" class = "search-date">
-                        </div>
-                    </div>
-                    <button id = "search-button">Explore Now</button>
-                </div>
-            </section>
-            <section id = images>
-              <img src="images/mountain beach.jpeg" alt="" id = "image">
-              <img src="images/mountain beach2.jpeg" alt="" id = "image2">
+        <section id = "popup2">
+          <section id = "popup-bg">
+            <video autoplay muted loop id="popupVideo">
+                <source src="/videos/Popup-bg.mp4" type="video/mp4">
+            </video>
           </section>
+          <section id = "popup-content">
+            <section id = "showcase">
+              <span class="material-symbols-outlined" id = "popup-close" onclick="closeForm();">close</span>
+              <section id = "search">
+                  <div class = "search-text">
+                      <div id = "search-heading">
+                          <h1>TravelMate</h1>
+                          <p>Enter details about your trip here</p>
+                      </div>
+                      <div id = search-info>
+                        <table>
+                          <tr>
+                            <td>
+                              <div id = "search-people">
+                                <p>Number of People</p>
+                                <input type="number" placeholder = "Number of People" class = "search-people-box" min = "0" max = "10">
+                              </div>
+                            </td>
+                            <td>
+                              <div id = "search-city">
+                                <p>Enter Destination</p>
+                                <select name="Enter Destination" id="search-city-box">
+                                  <option value="Choose Destination">Choose Destination</option>
+                                  <option value="Moon">Moon</option>
+                                  <option value="Mercury">Mercury</option>
+                                  <option value="Venus">Venus</option>
+                                  <option value="Mars">Mars</option>
+                                  <option value="Jupiter">Jupiter</option>
+                                  <option value="Saturn">Saturn</option>
+                                  <option value="Uranus" selected>Uranus</option>
+                                  <option value="Neptune">Neptune</option>
+                                  <option value="Pluto">Pluto</option>
+                                  <option value="Vegeta">Planet Vegeta</option>
+                                  <option value="Alpha Centauri">Alpha Centauri</option>
+                                  <option value="Sirius">Sirius</option>
+                                  <option value="Proxima Centauri">Proxima Centauri</option>
+                                  <option value="Wolf 359">Wolf 359</option>
+                                  <option value="Epsilon Eridani">Epsilon Eridani</option>
+                                  <option value="Tau Ceti">Tau Ceti</option>
+                                  <option value="Gliese 581">Gliese 581</option>
+                                  <option value="Gliese 667 Cc">Gliese 667 Cc</option>
+                                  <option value="Kepler-22b">Kepler-22b</option>
+                                  <option value="Kepler-62e">Kepler-62e</option>
+                                  <option value="Kepler-62f">Kepler-62f</option>
+                                  <option value="Kepler-69c">Kepler-69c</option>
+                                  <option value="Kepler-452b">Kepler-452b</option>
+                                  <option value="Kepler-442b">Kepler-442b</option>
+                                  <option value="TRAPPIST-1d">TRAPPIST-1d</option>
+                                  <option value="TRAPPIST-1e">TRAPPIST-1e</option>
+                                  <option value="TRAPPIST-1f">TRAPPIST-1f</option>
+                                  <option value="TRAPPIST-1g">TRAPPIST-1g</option>
+                                  <option value="TRAPPIST-1h">TRAPPIST-1h</option>
+                                  <option value="Luyten b">Luyten b</option>
+                                  <option value="Luyten c">Luyten c</option>
+                                  <option value="Luyten d">Luyten d</option>
+                                  <option value="Luyten e">Luyten e</option>
+                                  <option value="Luyten f">Luyten f</option>
+                                  <option value="Luyten g">Luyten g</option>
+                                  <option value="Luyten h">Luyten h</option>
+                                  <option value="Luyten i">Luyten i</option>
+                                  <option value="Luyten j">Luyten j</option>
+                                  <option value="Luyten k">Luyten k</option>
+                                  <option value="Luyten l">Luyten l</option>
+                                  <option value="Luyten m">Luyten m</option>
+                                  <option value="Luyten n">Luyten n</option>
+                                </select>
+                              </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <div id = "search-date-from">
+                                <p>Departure Date</p>
+                                <input type="date" placeholder = "Departure Date" class = "search-date-box">
+                              </div>
+                            </td>
+                            <td>
+                              <div id = "search-date-to">
+                                <p>Arrival Date</p>
+                                <input type="date" placeholder = "Departure Date" class = "search-date-box">
+                              </div>
+                            </td>
+                          </tr>
+                        </table>
+                      </div>
+                      <button id = "search-button">Explore Now</button>
+                  </div>
+              </section>
+            </section>
           </section>
         </section>
-      </section>
+    </section>
   </section>
     <script src="../js/uranus.js" async></script>
+    <script src="../js/default.js" async></script>
 </body>
 </html>

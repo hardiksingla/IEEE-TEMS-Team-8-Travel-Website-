@@ -24,9 +24,9 @@ let activities = [
       image: "../images/Pluto_Ac4.jpeg"
     },
     {
-      name: "Kuiper Belt Exploration",
+      name: "Polar Lights Observation",
       des:
-        "Utilize the mission to study other objects in the Kuiper Belt, a region of icy bodies beyond Neptune, to gain insights into the early solar system.",
+        "Enjoy a chance to witness the mysterious polar lights on Pluto, caused by interactions with solar winds and its thin atmosphere.",
       image: "../images/Pluto_Ac5.jpeg"
     }
   ];

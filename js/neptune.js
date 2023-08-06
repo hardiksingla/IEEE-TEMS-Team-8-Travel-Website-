@@ -18,15 +18,15 @@ let activities = [
       image: "../images/Neptune_Ac3.jpeg"
     },
     {
-      name: "Triton Landing",
+      name: "Nereid Flyby",
       des:
-        "Land on Triton, Neptune's largest moon, to study its unique retrograde orbit and geysers erupting from its icy surface.",
+        "Perform flybys of Nereid, one of Neptune's irregular moons, to learn more about its characteristics and origin.",
       image: "../images/Neptune_Ac1.jpeg"
     },
     {
-      name: "Educational Outreach",
+      name: "Photographic Mapping",
       des:
-        "Engage in educational and outreach activities, sharing the excitement of space exploration with the public and inspiring future generations of scientists and explorers.",
+        "Create detailed maps and images of Neptune's moons and study their surface features and geology.",
       image: "../images/Neptune_Ac5.jpeg"
     }
   ];

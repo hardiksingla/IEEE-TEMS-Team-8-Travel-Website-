@@ -1,5 +1,9 @@
 /*Contains CSS of elements that are common throughout the HTML files*/
 
+@font-face {
+    font-family: Plutur;
+    src: url(../fonts/Plutur.ttf);
+}
 
 /*CSS for the page*/
 html{
@@ -37,6 +41,7 @@ body{
     padding: 0.6%;          /*logo CSS here*/
     margin: 0;
     width: 55%;
+    font-family: "Plutur";
 }
 
 .nav-items{
