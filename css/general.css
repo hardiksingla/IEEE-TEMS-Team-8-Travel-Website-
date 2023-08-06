@@ -80,3 +80,7 @@ body::-webkit-scrollbar {
         width: 55%;
     }
 }
+
+a{
+    transition: all 0.5s ease-in-out;
+}
