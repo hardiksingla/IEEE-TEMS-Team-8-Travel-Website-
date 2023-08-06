@@ -16,7 +16,7 @@
         <a class = "nav-items" href = "about.html">About</a>
         <a class = "nav-items" href = "contact.html">Contact Us</a>
         <a class = "nav-items" href = "#top-destination">Top Destinations</a>
-        <a class = "nav-items" id = "try-now-button" >Try Now</a>
+        <a class = "nav-items" id = "try-now-button" onclick="openForm()">Try Now</a>
     </nav>
     <section id = "content">
         <section id = "start-bg">
@@ -97,7 +97,7 @@
         </section>
         <section id = "popup-content">
           <section id = "showcase">
-            <span class="material-symbols-outlined" id = "popup-close">
+            <span class="material-symbols-outlined" id = "popup-close" onclick="closeForm();">
               close
             </span>
             <section id = "search">
@@ -110,11 +110,9 @@
                       <table>
                         <tr>
                           <td>
-                          </td>
-                          <td>
                             <div id = "search-people">
                               <p>Number of People</p>
-                              <input type="number" placeholder = "Number of People" class = "search-people-box">
+                              <input type="number" placeholder = "Number of People" class = "search-people-box" min = "0" max = "10">
                             </div>
                           </td>
                           <td>
@@ -176,21 +174,9 @@
                             </div>
                           </td>
                           <td>
-                            <div id = "search-time-from">
-                              <p>Departure Time</p>
-                              <input type="time" placeholder = "Departure Time" class = "search-time-box">
-                            </div>
-                          </td>
-                          <td>
                             <div id = "search-date-to">
                               <p>Arrival Date</p>
                               <input type="date" placeholder = "Departure Date" class = "search-date-box">
-                            </div>
-                          </td>
-                          <td>
-                            <div id = "search-time-to">
-                              <p>Arrival Time</p>
-                              <input type="time" placeholder = "Departure Time" class = "search-time-box">
                             </div>
                           </td>
                         </tr>
