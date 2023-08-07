@@ -35,11 +35,12 @@ videocardContainers.forEach((item, i) => {
 
 
 
-function togglediv(id,id1) {
-  var div = document.getElementById(id);
-  var div1 = document.getElementById(id1);
+function togglediv() {
+  var div = document.getElementById("top-destination");
+  var div1 = document.getElementById("navbar");
   div.style.display = div.style.display == "block" ? "none" : "block";
-  div1.style.display = div.style.display == "flex" ? "none" : "flex";
+  div1.style.display = div1.style.display == "flex" ? "none" : "flex";
+  console.log("clicked bansal");
 }
 
 var tryNowButton = document.getElementById("try-now-button");
