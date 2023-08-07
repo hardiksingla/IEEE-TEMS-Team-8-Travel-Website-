@@ -33,14 +33,15 @@ videocardContainers.forEach((item, i) => {
   });
 });
 
-
+var body = document.querySelector("body");
+body.style.overflowY = "hidden"
 
 function togglediv() {
   var div = document.getElementById("top-destination");
   var div1 = document.getElementById("navbar");
   div.style.display = div.style.display == "block" ? "none" : "block";
   div1.style.display = div1.style.display == "flex" ? "none" : "flex";
-  console.log("clicked bansal");
+  body.style.overflowY = body.style.overflowY == "hidden" ? "visible" : "hidden";
 }
 
 var tryNowButton = document.getElementById("try-now-button");
