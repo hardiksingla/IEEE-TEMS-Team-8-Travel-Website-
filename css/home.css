@@ -276,4 +276,32 @@
         font-size: 14px;
         margin-top: 1vh;
     }
+
+    #top-destination h1{
+        font-size: 30px;
+        padding-top: 5vh;
+    }
+
+    #top-destination p{
+        font-size: 13px;
+        padding-bottom: 3vh;
+    }
+    
+    .pre-btn, .nxt-btn{
+        width: 5%;
+        height: 50px;
+        margin-top: 0.8%;
+        padding: 0;
+        top: 20%;
+    }
+
+    .video-card-container{
+        height: 20vh;
+        width: 100%;
+    }
+
+    .video-card{
+        width: 40vw;
+    }
+
 }
