@@ -41,7 +41,7 @@ body{
     font-size: 30px;        
     padding: 0.6%;          /*logo CSS here*/
     margin: 0;
-    width: 55%;
+    width: 60vw;
     font-family: "Plutur";
 }
 
@@ -77,16 +77,20 @@ body::-webkit-scrollbar {
 
 .navbar-links {
     height: 100%;
+    width: 100%;
 }
 
 .navbar-links ul {
     display: flex;
     margin: 0;
     padding: 0;
+    margin-left: 13vw;
+    margin-top: 15px;
 }
 
 .navbar-links li {
     list-style: none;
+    width: 12vw;
 }
 
 .navbar-links li a {
