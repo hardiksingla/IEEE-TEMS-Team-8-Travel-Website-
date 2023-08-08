@@ -48,7 +48,7 @@ var tryNowButton = document.getElementById("try-now-button");
 const popup = document.getElementById("popup");
 const backdrop = document.getElementById("content");
 
-console.log(popup,tryNowButton)
+  
 
 tryNowButton.addEventListener("click", () => {
 popup.style.display = "block";
@@ -57,3 +57,14 @@ popup.style.display = "block";
 backdrop.addEventListener("click", () => {
 popup.style.display = "none";
 });
+
+
+// hamburger menu
+
+const toggleButton = document.getElementsByClassName('toggle-button')[0]
+console.log(toggleButton)
+const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+
+toggleButton.addEventListener('click', () => {
+  navbarLinks.classList.toggle('active')
+})

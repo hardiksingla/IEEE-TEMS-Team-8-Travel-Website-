@@ -33,6 +33,9 @@ body{
     height: calc(100/1252.89 * 100%);
     min-height: 55px;
     width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
 }
 .logo{
     font-size: 30px;        
@@ -70,6 +73,81 @@ body::-webkit-scrollbar {
 
 #content{
     margin-top: calc(55/1252.89 * 100%);
+}
+
+.navbar-links {
+    height: 100%;
+}
+
+.navbar-links ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+@media (max-width: 800px) {
+    #navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .toggle-button {
+        display: flex;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+        justify-self: right ;
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar-links ul li {
+        text-align: center;
+    }
+
+    .navbar-links ul li a {
+        padding: .5rem 1rem;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
 }
 
 /*CSS for Popup*/
@@ -253,18 +331,6 @@ body::-webkit-scrollbar {
 }
 
 
-@media screen and (max-width: 768px) {
-    #navbar{
-        height: 5%;
-        min-height: 10px;
-    }
-    
-    .logo{
-        font-size: 25px;        
-        padding: 1%;          /*logo CSS here*/
-        width: 55%;
-    }
-}
 
 a{
     transition: all 0.5s ease-in-out;
