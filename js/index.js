@@ -25,11 +25,11 @@ videocardContainers.forEach((item, i) => {
   var containerWidth = containerDimensions.width;
 
   nxtBtns[i].addEventListener("click", () => {
-    item.scrollLeft += containerWidth - 200;
+    item.scrollLeft += containerWidth - 400;
   });
 
   preBtns[i].addEventListener("click", () => {
-    item.scrollLeft -= containerWidth + 200;
+    item.scrollLeft -= containerWidth + 400;
   });
 });
 
