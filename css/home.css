@@ -110,7 +110,7 @@
     position: relative;
     width: 100%;
     color: white;
-    min-height: 600px;
+    min-height: 60vh;
     /* display:none; */
 }
 
@@ -185,7 +185,7 @@
 .pre-btn,
 .nxt-btn {
     position: absolute;
-    top: 40%;
+    top: 50%;
     width: 3%;
     height: 100px;
     z-index: 2;
