@@ -252,7 +252,7 @@
     color: transparent;
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 1000px) {
 
     #startVideo{
         width: auto;

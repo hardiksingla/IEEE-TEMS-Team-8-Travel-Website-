@@ -1,0 +1,77 @@
+#navbar{
+    background-color: #000000;
+    display: flex;
+    position: fixed;
+    top: 0px;                /*navbar CSS here*/
+    z-index: 100;
+    height: 7.982%;
+    height: calc(100/1252.89 * 100%);
+    min-height: 55px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.logo{
+    font-size: 30px;        
+    padding: 0.6%;          /*logo CSS here*/
+    margin: 0;
+    width: 85vw;
+    font-family: "Plutur";
+}
+
+.nav-items{
+    position: relative;
+    margin-left: 2%;
+    margin-top: auto;        /*navbar items CSS here*/
+    margin-bottom: auto;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#navbar a{
+    text-decoration: none;
+    color: #ffffff;        /*navbar links CSS here*/
+    padding: 1%;
+    transition: 0.5s;
+}
+
+#navbar a:hover{
+    color: #55CBCD;         /*navbar links hover CSS here*/
+}
+
+/* CSS to hide the scrollbar for webkit-based browsers */
+body::-webkit-scrollbar {
+    display: none;
+}
+
+#content{
+    margin-top: calc(55/1252.89 * 100%);
+}
+
+.navbar-links {
+    height: 100%;
+    width: 100%;
+}
+
+.navbar-links ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-left: 13vw;
+    margin-top: 15px;
+}
+
+.navbar-links li {
+    list-style: none;
+    width: 12vw;
+}
+
+.navbar-links li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
