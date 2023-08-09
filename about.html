@@ -5,17 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/general.css">
     <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/navbar.css">
     <title>About Us</title>
 </head>
 <body>
-
     <nav id = "navbar">
-        <h1 class = "logo"><a href="index.html">Travel</a></h1>
-        <a class = "nav-items" href = "index.html">Home</a>
-        <a class = "nav-items" href = "contact.html">Contact Us</a>
-        <a class = "nav-items" href = "index.html#top-destination">Top Destinations</a>
-        <a class = "nav-items" href = "">Try Now</a>
-    </nav>
+        <h1 class = "logo brand-title"><a href="#content">Travel</a></h1>
+        <a href="#" class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+          <ul>
+            <li><a class = "nav-items" href = "index.html">Home</a></li>
+            <li><a class = "nav-items" href = "contact.html">Contact Us</a></li>
+            <li><a class = "nav-items" href = "#top-destination">Top Destinations</a></li>
+            <li><a class = "nav-items" id = "try-now-button" >Try Now</a></li>
+          </ul>
+        </div>
+      </nav>
 
     <section id = "about-area">
         <div class = "about-text">
@@ -23,6 +32,6 @@
             <p>This website was made by Team 8.</p>
         </div>
     </section>
-
+    <script src="js/navbar.js"></script>
 </body>
 </html>
