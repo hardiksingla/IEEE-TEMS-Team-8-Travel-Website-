@@ -132,6 +132,9 @@ button:hover{
     color: white;
 }
 
+.spacing{
+  padding:7vh;
+}
 
 /* responsive for portrait */
 

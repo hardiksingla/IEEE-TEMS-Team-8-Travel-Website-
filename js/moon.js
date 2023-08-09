@@ -83,5 +83,5 @@ let activities = [
   
   setInterval(() => {
     createSlide();
-  }, 3000);
+  }, 6000);
 
