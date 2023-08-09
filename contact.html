@@ -5,17 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/general.css">
     <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/navbar.css">
     <title>Contact Us</title>
 </head>
 <body>
-
     <nav id = "navbar">
-        <h1 class = "logo"><a href="index.html">Travel</a></h1>
-        <a class = "nav-items" href = "index.html">Home</a>
-        <a class = "nav-items" href = "about.html">About Us</a>
-        <a class = "nav-items" href = "index.html#top-destination">Top Destinations</a>
-        <a class = "nav-items" href = "">Try Now</a>
-    </nav>
+        <h1 class = "logo brand-title"><a href="#content">Travel</a></h1>
+        <a href="#" class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+          <ul>
+            <li><a class = "nav-items" href = "index.html">Home</a></li>
+            <li><a class = "nav-items" href = "about.html">About Us</a></li>
+            <li><a class = "nav-items" href = "#top-destination">Top Destinations</a></li>
+            <li><a class = "nav-items" id = "try-now-button" >Try Now</a></li>
+          </ul>
+        </div>
+      </nav>
 
     <section id = "about-area">
         <div class = "about-text">
@@ -35,5 +44,6 @@
         </div>
     </footer>
     <div id="copyright"><p>Copyright © 2023 Space Travel Adventures. All rights reserved.</p></div>
+    <script src="js/navbar.js"></script>
 </body>
 </html>

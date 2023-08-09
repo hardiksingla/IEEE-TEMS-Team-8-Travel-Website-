@@ -7,11 +7,15 @@
     <link rel="stylesheet" href="../css/links.css">
     <link rel="stylesheet" href="../css/nav2.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="../css/navbar.css">
+    <script src="../js/navbar.js" defer></script>
     <title>Mars Vacation Activities</title>
 </head>
 <body>
   <nav id = "navbar">
+
     <h1 class = "logo brand-title"><a href="../index.html">TravelMate</a></h1>
+
     <a href="#" class="toggle-button">
       <span class="bar"></span>
       <span class="bar"></span>
@@ -126,12 +130,24 @@
                           </tr>
                         </table>
                       </div>
-                      <button id = "search-button">Explore Now</button>
+                      <button id = "search-button" onclick="openloading();">Explore Now</button>
                   </div>
               </section>
             </section>
           </section>
         </section>
+    </section>
+    <section id = "loading-popup">
+      <div id = "loading-popup-content">
+        <dotlottie-player src="https://lottie.host/64932708-37eb-4026-af76-0f9685c79755/1XVe1sHIez.lottie"  background="transparent"  speed="1" id = "loading-loop" loop autoplay></dotlottie-player>
+        <p id="changingText">Searching the cosmos for your dream journeys.</p>
+      </div>
+    </section>
+    <section id = "thank-popup" onclick="closethank();">
+      <div id = "thank-popup-content">
+        <dotlottie-player src="https://lottie.host/afb6781b-8940-4c68-b8b7-0ca69a0d65ff/KK7HwTaLL2.lottie"  background="transparent"  speed="1" id = "thank-loop" loop autoplay></dotlottie-player>
+        <p id="changingText2">Thank you for using TravelMate</p>
+      </div>
     </section>
   </section>
   <div class="spacing"></div>
@@ -149,5 +165,7 @@
   <div id="copyright"><p>Copyright © 2023 Space Travel Adventures. All rights reserved.</p></div>
     <script src="../js/mars.js" async></script>
     <script src="../js/default.js" async></script>
+    <script src ="../js/popup.js" async defer></script>
+    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.js"></script>
 </body>
 </html>
