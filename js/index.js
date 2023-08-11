@@ -79,3 +79,8 @@ function toggleDrawer() {
   navbarLinks.classList.toggle('active')  
   sideDrawer.style.display = sideDrawer.style.display == "block" ? "none" : "block";
 }
+
+
+// 
+const startVideo = getElementById("startVideo")
+startVideo.style.width = window.screen.width
