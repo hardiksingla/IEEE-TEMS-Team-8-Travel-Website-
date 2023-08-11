@@ -21,13 +21,12 @@
           <ul>
             <li><a class = "nav-items" href = "index.html">Home</a></li>
             <li><a class = "nav-items" href = "contact.html">Contact Us</a></li>
-            <li><a class = "nav-items" href = "#top-destination">Top Destinations</a></li>
-            <li><a class = "nav-items" id = "try-now-button" >Try Now</a></li>
+            <li><a class = "nav-items" id = "try-now-button" onclick="openForm()" >Try Now</a></li>
           </ul>
         </div>
       </nav>
       <aside id="side-drawer" id="side-drawer"> 
-        <h1 class = "logo brand-title"><a href="../index.html">TravelMate</a></h1>
+        <h1 class = "logo brand-title"><a href="../index.html">StarPath</a></h1>
         <a href="#" class="toggle-button" id="toggle-button2">
           <span class="bar"></span>
           <span class="bar"></span>
@@ -37,8 +36,7 @@
           <ul>
             <li><a class = "nav-items" href = "index.html">Home</a></li>
             <li><a class = "nav-items" href = "contact.html">Contact Us</a></li>
-            <li><a class = "nav-items" href = "#top-destination">Top Destinations</a></li>
-            <li><a class = "nav-items" id = "try-now-button" >Try Now</a></li>
+            <li><a class = "nav-items" id = "try-now-button" onclick="openForm();toggleDrawer();" >Try Now</a></li>
           </ul>
         </div>
       </aside>
@@ -48,6 +46,107 @@
             <h1>About Us</h1>
             <p>This website was made by Team 8.</p>
         </div>
+    </section>
+    <section id = "popup">
+      <section id = "popup2">
+        <section id = "popup-bg">
+          <video autoplay muted loop id="popupVideo">
+              <source src="videos/Popup-bg.mp4" type="video/mp4">
+          </video>
+        </section>
+        <section id = "popup-content">
+          <section id = "showcase">
+            <span class="material-symbols-outlined" id = "popup-close" onclick="closeForm();">
+              close
+            </span>
+            <section id = "search">
+                <div class = "search-text">
+                    <div id = "search-heading">
+                        <h1>StarPath</h1>
+                        <p>Enter details about your trip here</p>
+                    </div>
+                    <div id = search-info>
+                      <table>
+                        <tr>
+                          <td>
+                            <div id = "search-people">
+                              <p>Number of People</p>
+                              <input type="number" placeholder = "Number of People" class = "search-people-box" min = "0" max = "10">
+                            </div>
+                          </td>
+                          <td>
+                            <div id = "search-city">
+                              <p>Enter Destination</p>
+                              <select name="Enter Destination" id="search-city-box">
+                                <option value="Choose Destination">Choose Destination</option>
+                                <option value="Moon">Moon</option>
+                                <option value="Mercury">Mercury</option>
+                                <option value="Venus">Venus</option>
+                                <option value="Mars">Mars</option>
+                                <option value="Jupiter">Jupiter</option>
+                                <option value="Saturn">Saturn</option>
+                                <option value="Uranus">Uranus</option>
+                                <option value="Neptune">Neptune</option>
+                                <option value="Pluto">Pluto</option>
+                                <option value="Vegeta">Planet Vegeta</option>
+                                <option value="Alpha Centauri">Alpha Centauri</option>
+                                <option value="Sirius">Sirius</option>
+                                <option value="Proxima Centauri">Proxima Centauri</option>
+                                <option value="Wolf 359">Wolf 359</option>
+                                <option value="Epsilon Eridani">Epsilon Eridani</option>
+                                <option value="Tau Ceti">Tau Ceti</option>
+                                <option value="Gliese 581">Gliese 581</option>
+                                <option value="Gliese 667 Cc">Gliese 667 Cc</option>
+                                <option value="Kepler-22b">Kepler-22b</option>
+                                <option value="Kepler-62e">Kepler-62e</option>
+                                <option value="Kepler-62f">Kepler-62f</option>
+                                <option value="Kepler-69c">Kepler-69c</option>
+                                <option value="Kepler-452b">Kepler-452b</option>
+                                <option value="Kepler-442b">Kepler-442b</option>
+                                <option value="TRAPPIST-1d">TRAPPIST-1d</option>
+                                <option value="TRAPPIST-1e">TRAPPIST-1e</option>
+                                <option value="TRAPPIST-1f">TRAPPIST-1f</option>
+                                <option value="TRAPPIST-1g">TRAPPIST-1g</option>
+                                <option value="TRAPPIST-1h">TRAPPIST-1h</option>
+                                <option value="Luyten b">Luyten b</option>
+                                <option value="Luyten c">Luyten c</option>
+                                <option value="Luyten d">Luyten d</option>
+                                <option value="Luyten e">Luyten e</option>
+                                <option value="Luyten f">Luyten f</option>
+                                <option value="Luyten g">Luyten g</option>
+                                <option value="Luyten h">Luyten h</option>
+                                <option value="Luyten i">Luyten i</option>
+                                <option value="Luyten j">Luyten j</option>
+                                <option value="Luyten k">Luyten k</option>
+                                <option value="Luyten l">Luyten l</option>
+                                <option value="Luyten m">Luyten m</option>
+                                <option value="Luyten n">Luyten n</option>
+                              </select>
+                            </div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <div id = "search-date-from">
+                              <p>Departure Date</p>
+                              <input type="date" placeholder = "Departure Date" class = "search-date-box">
+                            </div>
+                          </td>
+                          <td>
+                            <div id = "search-date-to">
+                              <p>Arrival Date</p>
+                              <input type="date" placeholder = "Departure Date" class = "search-date-box">
+                            </div>
+                          </td>
+                        </tr>
+                      </table>
+                    </div>
+                    <button id = "search-button">Explore Now</button>
+                </div>
+            </section>
+          </section>
+        </section>
+      </section>
     </section>
     <footer id = "footer">
         <h1 class = "logo brand-title" id="logo-footer"><a href="index.html">StarPath</a></h1>
@@ -61,6 +160,7 @@
         </div>
     </footer>
     <div id="copyright"><p>Copyright © 2023 Space Travel Adventures. All rights reserved.</p></div>
-  <script src="js/navbar.js"></script>
+    <script src="js/navbar.js"></script>
+    <script src="js/popup.js"></script>
 </body>
 </html>
