@@ -239,6 +239,9 @@
         width: auto;
         height: 100%;
         min-height: 100vh;
+        object-fit: fill;
+        overflow-clip-margin: content-box;
+        overflow: clip
     }
     
     #start-content h1 {
