@@ -86,3 +86,13 @@ const startVideo = document.getElementById("startVideo")
 startVideo.style.width = document.body.clientWidth
 
 
+var docWidth = document.documentElement.offsetWidth;
+[].forEach.call(
+  document.querySelectorAll('*'),
+  function(el) {
+    if (el.offsetWidth > docWidth) {
+      console.log(el);
+      el.offsetWidth = docWidth
+    }
+  }
+);
