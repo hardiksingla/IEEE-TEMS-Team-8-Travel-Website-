@@ -29,7 +29,7 @@
 /*for the background video */
 #startVideo{
     margin-top: 0px;
-    width: 100%;
+    width: 100vh;
     height: auto;
     z-index: 1;
 }
@@ -236,7 +236,7 @@
 @media screen and (max-width: 1000px) {
 
     #startVideo{
-        width: auto;
+        width: 100vh;
         height: 100%;
         min-height: 100vh;
     }
