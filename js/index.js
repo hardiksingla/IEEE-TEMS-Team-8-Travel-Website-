@@ -82,5 +82,5 @@ function toggleDrawer() {
 
 
 // 
-const startVideo = getElementById("startVideo")
+const startVideo = getElementById("start-bg")
 startVideo.style.width = window.screen.width
