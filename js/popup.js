@@ -26,3 +26,10 @@ const lines = [
     }
 
     setInterval(updateText, 3000); // Change text every 5 seconds
+
+    function openForm() {
+        document.getElementById("popup").style.display = "block";
+    } 
+    function closeForm() {
+        document.getElementById("popup").style.display = "none";
+    }

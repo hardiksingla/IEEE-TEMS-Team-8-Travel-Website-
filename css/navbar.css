@@ -42,7 +42,7 @@
 }
 .navbar-links {
   height: 100%;
-  width: 40%;
+  width: 30%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -138,4 +138,7 @@
 #side-drawer h1 a{
   text-decoration: none;
   color: white;  
+}
+#side-drawer .logo{
+  margin-right: 34px;
 }
